@@ -1,0 +1,90 @@
+.Al {
+    font-size: 21pt;
+}
+button {
+    width: 150px;
+    height: 100px;
+    border-radius: 8pt;
+    background-color: rgb(245, 245, 182);
+    font-size: 30px;
+    color: rgb(0, 146, 231);
+    position: relative;
+    left: 64%;
+    top: 154pt;
+}
+
+#instructions {
+    position: relative;
+    left: 47%;
+    top: 151pt;
+    color: rgb(245, 245, 182);
+    font-size: 25pt;
+
+}
+#ques {
+    font-size: 15pt;
+}
+#imgtoy {
+    width: 37%;
+    margin-bottom: 2%;
+}
+
+#questions {
+    background-color: rgb(245, 245, 182);
+    width: 80%;
+    height: 1720pt;
+    position: relative;
+    left: 33%;
+    margin-bottom: 8%;
+    margin-top:-12%;
+    border-radius: 8pt;
+    font-size: 40pt;
+    text-align: center;
+    
+}
+#test {
+    background-color: antiquewhite;
+    width: 52%;
+    height: 100pt;
+    position: relative;
+    left: 25%;
+    margin-bottom: 8%;
+    border-radius: 8pt;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 5%
+}
+
+#Btn1 {
+    position: relative;
+    top: 10%;
+    left: -7%;
+    margin-top: 2%;
+    background-color: skyblue;
+    color:rgb(245, 245, 182);
+}
+#Btn1:hover {
+    background-color:rgb(92, 179, 250); 
+}
+#Btn2 {
+    position: relative;
+    top: 10%;
+    left: -0%;
+    margin-top: 2%;
+    background-color: skyblue;
+    color:rgb(245, 245, 182);
+}
+#Btn2:hover {
+    background-color:rgb(92, 179, 250); 
+}
+#Btn3 {
+    position: relative;
+    top: 10%;
+    left: 6%;
+    margin-top: 2%;
+    background-color: skyblue;
+    color:rgb(245, 245, 182);
+}
+#Btn3:hover {
+    background-color:rgb(92, 179, 250); 
+}
