@@ -1,1 +1,2 @@
 # TriviaGame
+This proyect is about a trivia themed with Toy Story. The main points are that the user have to choose the right answer. there is a 60 sec timer and, after the user finish the trivia or the timer ends up, there is new page displayed with the answers and mistakes. 
