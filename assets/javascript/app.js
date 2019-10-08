@@ -4,7 +4,7 @@
 // If the user finish the trivia, set finish button that take you to a review of your answers
 
 $(document).ready(function () {
-    var time = 10;
+    var time = 60;
     var intervalId;
     var clockRunning = false;
     var goods = 0;
@@ -12,7 +12,7 @@ $(document).ready(function () {
     var answers = 0;
     var images = "../TriviaGame/assets/images/toy-stor.jpg";
     $("#questions").hide();
-    // $(".reset").hide();
+    $(".reset").hide();
     
     
     
@@ -60,9 +60,11 @@ $(document).ready(function () {
             if (seconds === 0 || answers === 4) {
                 alert("FINISHED");
                 stop();
-                $("#questions").html("<img src=" + images + " width='600px'>" + "<br>" + "Correct answers: " + goods + "<br>" + "Incorrect answers: " + mistakes);
+                $("#questions").html("<img src=" + images + " width='600px'>" + "<br>" + "Correct answers: " + goods + "<br>" + "Incorrect answers: " + mistakes + "<br>");
+                $(".reset").show()
                 $("#questions").css("height","700");
-                // $(".reset").show();
+
+               
             }
 
             if (seconds < 10) {

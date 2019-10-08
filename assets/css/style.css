@@ -1,3 +1,7 @@
+.reset {
+    position: relative;
+    bottom: 50%;
+}
 .Al {
     font-size: 21pt;
 }
